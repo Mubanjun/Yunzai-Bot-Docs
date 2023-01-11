@@ -183,6 +183,13 @@ apt-get install -y chromium chromium-driver chromium-l10n
 apt-get install -y --force-yes --no-install-recommends fonts-wqy-microhei
 apt-get install -y git
 ```
+:::info
+如果您正在使用debian11及以上，请使用以下命令安装字体
+```bash
+apt-get instsll -y --allow-unauthenticated --no-install-recommends fonts-wqy-microhei
+```
+:::
+
 
 安装并运行 redis
 
